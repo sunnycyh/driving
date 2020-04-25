@@ -6,3 +6,8 @@ if country == 'Taiwan' or country == 'taiwan' or country == 'Hong Kong' or count
 		print('You can now apply the driving licences!')
 	else:
 		print('You are not allowed to apply the driving licences!')
+elif country == 'America' or country == 'U.S' or country == 'US':
+	if age >= 16:
+		print('You can now apply the driving licences!')
+	else:
+		print('You are not allowed to apply the driving licences!')
